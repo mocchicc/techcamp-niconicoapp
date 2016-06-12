@@ -29,11 +29,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         //commentTextFieldの内容を取得
         label.text = commentTextField.text
         
-        //ラベルの位置が動くように設定
-        //ラベルの位置(X)を画面の幅と同じにする事でかならず画面の外にラベルを配置できる
-        label.frame.origin = CGPoint(x: self.view.frame.width, y: 200)
+        //生成した乱数を余りを求める「%」と組み合わせて乱数の範囲を決定
+        //arc4random()をCGFloat型にキャスト
+        // → UInt32型の数値は、小数値であるCGFloat型の数値と計算することはできない
+        let randY = CGFloat(arc4random()) % (self.view.frame.height - 64) + 64
+        label.frame.origin = CGPoint(x: self.view.frame.width, y: randY)
         
-        label.font = UIFont(name: "HirakakuProN-W6", size:20)
+        //フォントサイズを20px~40pxの間でランダムな値を指定
+        label.font = UIFont(name: "HirakakuProN-W6", size: CGFloat(arc4random() % 21 + 20))
         
         //サイズの設定は、テキスト内容を決めてから記述する
         label.sizeToFit()
@@ -54,8 +57,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let commentLabel = sender.userInfo as! UILabel
         //userInfoに指定したcommentLabelはmoveCommet()メソッドの引数であるsenderから取得している
         //commetLabelのx座標はframe.origin.xで取得
-        //また、-=演算子を用いることでx座標の値を20pxずつ減らす
-        commentLabel.frame.origin.x -= 20
+        commentLabel.frame.origin.x -= commentLabel.frame.height
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

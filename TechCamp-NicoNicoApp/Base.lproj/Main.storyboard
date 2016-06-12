@@ -35,7 +35,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ctO-oJ-2g5">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sky.png" translatesAutoresizingMaskIntoConstraints="NO" id="ctO-oJ-2g5">
                                 <rect key="frame" x="0.0" y="83" width="375" height="584"/>
                             </imageView>
                         </subviews>
@@ -48,4 +48,7 @@
             <point key="canvasLocation" x="138.5" y="464.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="sky.png" width="375" height="667"/>
+    </resources>
 </document>

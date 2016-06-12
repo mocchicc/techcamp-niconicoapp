@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348E20A61D0D1E1F001641AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E20A51D0D1E1F001641AF /* AppDelegate.swift */; };
+		348E20A81D0D1E1F001641AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348E20A71D0D1E1F001641AF /* ViewController.swift */; };
+		348E20AB1D0D1E1F001641AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E20A91D0D1E1F001641AF /* Main.storyboard */; };
+		348E20AD1D0D1E1F001641AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348E20AC1D0D1E1F001641AF /* Assets.xcassets */; };
+		348E20B01D0D1E1F001641AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E20AE1D0D1E1F001641AF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		348E20A21D0D1E1F001641AF /* TechCamp-NicoNicoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechCamp-NicoNicoApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348E20A51D0D1E1F001641AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		348E20A71D0D1E1F001641AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		348E20AA1D0D1E1F001641AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		348E20AC1D0D1E1F001641AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		348E20AF1D0D1E1F001641AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		348E20B11D0D1E1F001641AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348E209F1D0D1E1F001641AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348E20991D0D1E1F001641AF = {
+			isa = PBXGroup;
+			children = (
+				348E20A41D0D1E1F001641AF /* TechCamp-NicoNicoApp */,
+				348E20A31D0D1E1F001641AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		348E20A31D0D1E1F001641AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				348E20A21D0D1E1F001641AF /* TechCamp-NicoNicoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348E20A41D0D1E1F001641AF /* TechCamp-NicoNicoApp */ = {
+			isa = PBXGroup;
+			children = (
+				348E20A51D0D1E1F001641AF /* AppDelegate.swift */,
+				348E20A71D0D1E1F001641AF /* ViewController.swift */,
+				348E20A91D0D1E1F001641AF /* Main.storyboard */,
+				348E20AC1D0D1E1F001641AF /* Assets.xcassets */,
+				348E20AE1D0D1E1F001641AF /* LaunchScreen.storyboard */,
+				348E20B11D0D1E1F001641AF /* Info.plist */,
+			);
+			path = "TechCamp-NicoNicoApp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		348E20A11D0D1E1F001641AF /* TechCamp-NicoNicoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348E20B41D0D1E1F001641AF /* Build configuration list for PBXNativeTarget "TechCamp-NicoNicoApp" */;
+			buildPhases = (
+				348E209E1D0D1E1F001641AF /* Sources */,
+				348E209F1D0D1E1F001641AF /* Frameworks */,
+				348E20A01D0D1E1F001641AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TechCamp-NicoNicoApp";
+			productName = "TechCamp-NicoNicoApp";
+			productReference = 348E20A21D0D1E1F001641AF /* TechCamp-NicoNicoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		348E209A1D0D1E1F001641AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mocchicc;
+				TargetAttributes = {
+					348E20A11D0D1E1F001641AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 348E209D1D0D1E1F001641AF /* Build configuration list for PBXProject "TechCamp-NicoNicoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 348E20991D0D1E1F001641AF;
+			productRefGroup = 348E20A31D0D1E1F001641AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				348E20A11D0D1E1F001641AF /* TechCamp-NicoNicoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		348E20A01D0D1E1F001641AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348E20B01D0D1E1F001641AF /* LaunchScreen.storyboard in Resources */,
+				348E20AD1D0D1E1F001641AF /* Assets.xcassets in Resources */,
+				348E20AB1D0D1E1F001641AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348E209E1D0D1E1F001641AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348E20A81D0D1E1F001641AF /* ViewController.swift in Sources */,
+				348E20A61D0D1E1F001641AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		348E20A91D0D1E1F001641AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348E20AA1D0D1E1F001641AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		348E20AE1D0D1E1F001641AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348E20AF1D0D1E1F001641AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		348E20B21D0D1E1F001641AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		348E20B31D0D1E1F001641AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348E20B51D0D1E1F001641AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TechCamp-NicoNicoApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mocchicc.TechCamp-NicoNicoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		348E20B61D0D1E1F001641AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TechCamp-NicoNicoApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mocchicc.TechCamp-NicoNicoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348E209D1D0D1E1F001641AF /* Build configuration list for PBXProject "TechCamp-NicoNicoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348E20B21D0D1E1F001641AF /* Debug */,
+				348E20B31D0D1E1F001641AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348E20B41D0D1E1F001641AF /* Build configuration list for PBXNativeTarget "TechCamp-NicoNicoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348E20B51D0D1E1F001641AF /* Debug */,
+				348E20B61D0D1E1F001641AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 348E209A1D0D1E1F001641AF /* Project object */;
+}

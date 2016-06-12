@@ -25,6 +25,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func tapSubmitButton(sender: UIButton) {
         commentTextField.resignFirstResponder()
+        let label = UILabel()
+        label.frame.origin = CGPoint(x: 130, y: 200)
+        label.font = UIFont(name: "HirakakuProN-W6", size:20)
+        label.sizeToFit()
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

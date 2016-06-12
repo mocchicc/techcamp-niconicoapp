@@ -43,6 +43,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         //生成したLabelをViewControllerに表示
         self.view.addSubview(commentLabel)
+        
+        NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(ViewController.moveComment(_:)), userInfo: nil, repeats: true)
+    }
+
+    func moveComment(sender: NSTimer) {
+        print("Hello World")
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

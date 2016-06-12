@@ -22,9 +22,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func tapSubmitButton(sender: UIButton) {
-        commentTextField.resignFirstResponder()
+    
+    func makeCommentLabel() -> UILabel {
         let label = UILabel()
         
         //commentTextFieldの内容を取得
@@ -35,6 +34,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         //サイズの設定は、テキスト内容を決めてから記述する
         label.sizeToFit()
+        return label
+    }
+
+    @IBAction func tapSubmitButton(sender: UIButton) {
+        commentTextField.resignFirstResponder()
+        let commentLabel = makeCommentLabel()
+        
+        //生成したLabelをViewControllerに表示
+        self.view.addSubview(commentLabel)
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {

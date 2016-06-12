@@ -12,6 +12,7 @@
 		348E20AB1D0D1E1F001641AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E20A91D0D1E1F001641AF /* Main.storyboard */; };
 		348E20AD1D0D1E1F001641AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348E20AC1D0D1E1F001641AF /* Assets.xcassets */; };
 		348E20B01D0D1E1F001641AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E20AE1D0D1E1F001641AF /* LaunchScreen.storyboard */; };
+		348E20B81D0D2046001641AF /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E20B71D0D2046001641AF /* sky.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		348E20AC1D0D1E1F001641AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348E20AF1D0D1E1F001641AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348E20B11D0D1E1F001641AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348E20B71D0D2046001641AF /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky.png; path = ../../../../Downloads/sky.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				348E20A51D0D1E1F001641AF /* AppDelegate.swift */,
 				348E20A71D0D1E1F001641AF /* ViewController.swift */,
+				348E20B71D0D2046001641AF /* sky.png */,
 				348E20A91D0D1E1F001641AF /* Main.storyboard */,
 				348E20AC1D0D1E1F001641AF /* Assets.xcassets */,
 				348E20AE1D0D1E1F001641AF /* LaunchScreen.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				348E20B01D0D1E1F001641AF /* LaunchScreen.storyboard in Resources */,
+				348E20B81D0D2046001641AF /* sky.png in Resources */,
 				348E20AD1D0D1E1F001641AF /* Assets.xcassets in Resources */,
 				348E20AB1D0D1E1F001641AF /* Main.storyboard in Resources */,
 			);
